@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fictional Business</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fictional Business</h1>
+  </header>
+
+  <section>
+    <h2>Welcome to Our Business!</h2>
+    <p>Test purpose QA.</p>
+    <button onclick="showMessage()">Click Me!</button>
+    <p id="hiddenMessage" style="display: none; color: green;">Congratulations! You clicked the button.</p>
+  </section>
+
+  <section>
+    <div class="banner-container">
+      <a href="https://www.bookmundi.com?utm_source=47755524">
+        <img src="https://images.bookmundi.com/static/banners/square.jpg" alt="Bookmundi Square Banner">
+      </a>
+    </div>
+  
+    <div class="banner-container">
+      <a href="https://www.bookmundi.com?utm_source=47755524">
+        <img src="https://images.bookmundi.com/static/banners/horizontal.jpg" alt="Bookmundi Horizontal Banner">
+      </a>
+    </div>
+  
+    <div class="banner-container">
+      <a href="https://www.bookmundi.com?utm_source=47755524">
+        <img src="https://images.bookmundi.com/static/banners/vertical.jpg" alt="Bookmundi Vertical Banner">
+      </a>
+    </div>
+  </section>
+  
+  <section>
+    <div
+      id="bookmundi_widget_container_QdTFsKV24ILZLZIO1zTAQmLCyZfE9Xjc"
+      class="bookmundi_widget_container"
+      data-widget-name="Widget Title"
+      data-widget-width="700.00" 
+      data-widget-alignment="horizontal" 
+      data-agency-code="QdTFsKV24ILZLZIO1zTAQmLCyZfE9Xjc" 
+      data-agency-url="*" 
+      data-widget-type="product" 
+      data-product-widget-type="destination" 
+      data-tour-type="all" 
+      data-tour-limit="3" 
+      data-show-search="1" 
+      data-selected-search="" 
+      data-selected-activity="" 
+      data-selected-search-type="destination" 
+      data-currency="USD">
+    </div>
+    <script async src="https://assets.bookmundi.com/production/resources/widget/loader.js">
+    </script>
+  </section>
+  
+    <!-- <div
+      id="bookmundi_widget_container_17h89ic326e5j"
+      class="bookmundi_widget_container"
+      data-widget-name="Test search"
+      data-widget-width="450.00" 
+      data-widget-alignment="vertical" 
+      data-agency-code="17h89ic326e5j" 
+      data-agency-url="*" 
+      data-widget-type="search" 
+      data-product-widget-type="destination" 
+      data-tour-type="all" 
+      data-tour-limit="4" 
+      data-show-search="1" 
+      data-selected-search="112" 
+      data-selected-activity="190" 
+      data-selected-search-type="destination" 
+      data-currency="GBP">
+    </div>
+    <script async src="https://assets.bookmundi.com/production/resources/widget/loader.js"></script>
+  </section> -->
+  
+  <style>
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .banner-container,
+    .widget-container {
+      margin: 10px;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  
+
+  <script>
+    function showMessage() {
+      const hiddenMessage = document.getElementById('hiddenMessage');
+      hiddenMessage.style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
